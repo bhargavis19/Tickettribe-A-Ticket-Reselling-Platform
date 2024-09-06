@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/profilelayout"
+        android:paddingTop="40dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/arrowleft"
+            android:src="@drawable/arrowleft"
+            android:background="@color/black"
+            android:paddingTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:text="@string/profile"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/arrowleft"
+            android:src="@drawable/arrowleft">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/profilelayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/profile"
+        android:src="@drawable/profile_picture" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImage"
+        android:layout_centerHorizontal="true"
+        android:text="User"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvManageProfile"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableStart="@drawable/icon"
+        android:drawableEnd="@drawable/arrowright"
+        android:drawablePadding="10dp"
+
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Manage Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+    <TextView
+        android:id="@+id/tvManageBookings"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvManageProfile"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Manage Bookings"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        app:drawableLeftCompat="@drawable/search" />
+    <TextView
+        android:id="@+id/tvSellTickets"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvManageBookings"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/search"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Sell Tickets"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvCart"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSellTickets"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/cart_icon"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Cart"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/InviteFriends"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCart"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/icon"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Invite Friends"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/Logout"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InviteFriends"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/logout"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="@string/logout"
+        android:textColor="#FFFFFF"
+
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/About"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Logout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/info"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="About"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</RelativeLayout>

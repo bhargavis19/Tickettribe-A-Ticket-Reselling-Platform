@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641526762023",
+    "project_id": "ticketribe",
+    "storage_bucket": "ticketribe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641526762023:android:4468da8d212f7f45985c02",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtgRV26RDFT50IJohqyeOB1o7VW3R0I1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

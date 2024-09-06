@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="one_stop_solution_for_re_selling_tickets">ONE-STOP solution for re-selling tickets</string>
+    <string name="ticketribe">TICKETRIBE</string>
+    <string name="instantly_find_tickets_to_events_that_spark_your_passion">Instantly find tickets to events that spark your passion</string>
+    <string name="signup_for_free">Signup for free</string>
+    <string name="continue_with_google">Continue with google</string>
+    <string name="already_an_existing_user">Already an existing user</string>
+    <string name="your_ticket_to_unforgettable_experiences_awaits">Your\nticket\nto\nunforgettable\nexperiences\nawaits</string>
+    <string name="hello_nwelcome_back">Hello\nWelcome back</string>
+    <string name="Your_ticket_to_unforgettable_experiences_awaits">Your ticket to unforgettable experiences awaits</string>
+    <string name="full_name">Full name</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hello_nready_to_explore">Hello\nReady to explore?</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_in_to_already_existing_account">Sign in to already existing account</string>
+    <string name="your_ticket_to_nunforgettable_nexperiences_nawaits">Your ticket to\nunforgettable\nexperiences\nawaits</string>
+    <string name="name">Name</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="save">Save</string>
+    <string name="display">display</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="enter_your_name_from">Enter your name(From)</string>
+    <string name="enter_reciever_s_name_to">Enter reciever\'s name(To)</string>
+    <string name="message_60_words">Message(60 words)</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="arrowleft">arrowleft</string>
+    <string name="nikhil_kumar">Nikhil Kumar</string>
+    <string name="description">By going through these steps, you should be able to identify the cause of the issue and make the </string>
+    <string name="rescheduling">Rescheduling is allowed 2 Hours prior to slot time.
+Rescheduling of a booking can be done only 2 times.
+Once rescheduled, booking cancelled. </string>
+    <string name="cancellation">0-2 hrs prior to slot: Cancellations not allowed.
+>2 hrs prior to slot: 15.0% of Gross Amount will
+be deducted as cancellation. </string>
+    <string name="cart">Cart</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="title_activity_main9">MainActivity9</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="show2">show2</string>
+    <string name="events_around">Events around</string>
+    <string name="show3">show3</string>
+    <string name="show4">show4</string>
+    <string name="show6">show6</string>
+    <string name="show5">show5</string>
+    <string name="show1">show1</string>
+    <string name="starting_from">Starting from</string>
+    <string name="_5000">5000/-</string>
+    <string name="techno_music_fest">Techno Music Fest</string>
+    <string name="the_aakash_gupta_nshow_second_series">The Aakash Gupta \nShow- Second series</string>
+    <string name="_9000">9000/-</string>
+    <string name="sunburn_arena_ft_martin_garrix">Sunburn Arena Ft. Martin Garrix</string>
+    <string name="_8000">8000/-</string>
+    <string name="dj_chetas_xylobands_india_tour">DJ Chetas Xylobands India Tour</string>
+    <string name="world_jazz_festival_delhi">World Jazz Festival- Delhi</string>
+    <string name="_7500">7500/-</string>
+    <string name="arijit_singh_delhi_night">Arijit Singh-Delhi night</string>
+    <string name="location1">location1</string>
+    <string name="calender1">calender1</string>
+    <string name="noida_india">Noida, India</string>
+    <string name="_11th_may_2024">11th May 2024</string>
+    <string name="_30_april_2024">30 April 2024</string>
+    <string name="hard_rock_cafe">Hard Rock Cafe</string>
+    <string name="kamani_auditorium">Kamani Auditorium</string>
+    <string name="_19_may_2024">19 May 2024</string>
+    <string name="_21_may">21 May</string>
+    <string name="_13_may_2024">13 May 2024</string>
+    <string name="_21_may_2024">21 May 2024</string>
+    <string name="sirifort_auditorium">Sirifort Auditorium</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="all">All</string>
+    <string name="concerts">Concerts</string>
+    <string name="comedy_shows">Comedy Shows</string>
+    <string name="fests">Fests</string>
+    <string name="see_all">See all</string>
+    <string name="upcoming_events">Upcoming events</string>
+    <string name="events_in_delhi_ncr">Events in Delhi NCR</string>
+    <string name="title_activity_ticketsell">Ticketsell</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="client_id" translatable="false">641526762023-9u4pp56qkokdoju11hk5hte7qejhmlh5.apps.googleusercontent.com</string>
+    <string name="ticket">            Welcome to our ticket reselling app, where we turn wasted tickets into cherished experiences. We\'re all about giving unused tickets a second chance while providing users with access to sold-out events at fair prices. Our platform is built on the belief that every ticket deserves to be enjoyed, connecting sellers with eager buyers and ensuring that no event seat goes unfilled. Join us in our mission to make every ticket count and create unforgettable moments for everyone.\n\nFor any further queries, please tap the contact us button.</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="languages">
+        <item>Sports</item>
+        <item>Singing</item>
+        <item>Dance</item>
+        <item>Comedy</item>
+        <item>Competition</item>
+    </string-array>
+</resources>
