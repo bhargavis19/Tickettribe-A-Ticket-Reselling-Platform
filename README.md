@@ -13,7 +13,7 @@ TicketTribe is a mobile application designed to streamline the ticket-selling pr
 
 - **Java:** Used for implementing the backend logic and functionalities.
 - **XML:** Used for designing the frontend user interface.
-- **Firebase (Optional):** For user authentication and data storage.
+- **Firebase:** For user authentication and data storage.
 
 ## Tools
 
