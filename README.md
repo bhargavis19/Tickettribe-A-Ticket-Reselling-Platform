@@ -26,5 +26,5 @@ TicketTribe is a mobile application designed to streamline the ticket-selling pr
    ```bash
    git clone https://github.com/yourusername/TicketTribe.git
 
-I made this application an year ago, and during that time Android studio allowed us to create apps through both JAVA and Kotlin. But now, Android Studio allows to create apps using Kotlin only, so this code may not work so i am attaching the figma file for reference
+I made this application an year ago, and during that time Android studio allowed us to create apps through both JAVA and Kotlin. But now, Android Studio allows to create apps using Kotlin only, so this code may not work so i am attaching the figma file for reference.
 <br>Figma file: https://www.figma.com/design/DvQF6nukmsnrqspPek850l/TICKETRIBE-ONE-STOP-solution-for-re-selling-tickets?node-id=0-1&t=1XdeEO7e9VoUx4Fi-1
